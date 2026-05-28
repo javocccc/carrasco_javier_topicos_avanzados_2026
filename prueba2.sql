@@ -1,6 +1,6 @@
 --PARTE 1
 /*
-1) Un procedimiento almancenado ejecuta es un bloque PL/SQL con nombre que se almacena en la base de datos y sirve 
+1) Un procedimiento almancenado es un bloque PL/SQL con nombre que se almacena en la base de datos y sirve 
 para ejecutar acciones (INSERT, UPDATE, etc), una función almacenada es un bloque PL/SQL también pero que devuelve un valor usando RETURN y
 se utiliza en expresiones (SELECT, WHERE, etc), como ejemplo de procedimiento almacemado tenemos el ejercicio 1 donde el procedimiento
 inserta una nueva fila en asignaciones y actualiza el estado del incidente, como ejemplo para función almacenada tenemos el ejercicio 2
