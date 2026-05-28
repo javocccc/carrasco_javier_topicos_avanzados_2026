@@ -28,7 +28,7 @@ BEGIN
     FROM Asignaciones
     WHERE AsignacionID = p_AsignacionID;
 
-    DBMS_OUTPUT.PUT_LINE('Horas ajustadas para asignacion ' || p_AsignacionID || ': ' || p_HorasActualizadas);
+    DBMS_OUTPUT.PUT_LINE('Horas ajustadas de asignación' || p_AsignacionID || ': ' || p_HorasActualizadas);
 EXCEPTION
     WHEN OTHERS THEN
         DBMS_OUTPUT.PUT_LINE('Error: ' || SQLERRM);
@@ -61,11 +61,6 @@ EXCEPTION
         DBMS_OUTPUT.PUT_LINE('Error en trigger: ' || SQLERRM);
 END;
 / 
-
-
-
-
-
 
 
 --PARTE 2
